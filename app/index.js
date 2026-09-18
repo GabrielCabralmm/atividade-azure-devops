@@ -23,10 +23,10 @@ const port = process.env.PORT || 8080;
 
 // Configuração do Banco de Dados (Os alunos devem preencher as variáveis no Azure WebApp)
 const dbConfig = {
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    server: process.env.DB_SERVER, // Ex: meuserver.database.windows.net
-    database: process.env.DB_NAME,
+    user: 'dbadmin',
+    password: 'FIAP@2tdspo2026',
+    server: 'sqlserver-cp5-soccer563230-565049', // Ex: meuserver.database.windows.net
+    database: 'cp5-soccer563230-565049',
     options: {
         encrypt: true, // Necessário para Azure SQL
         trustServerCertificate: false
