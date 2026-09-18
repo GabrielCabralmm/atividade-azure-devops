@@ -25,7 +25,7 @@ const port = process.env.PORT || 8080;
 const dbConfig = {
     user: 'dbadmin',
     password: 'FIAP@2tdspo2026',
-    server: 'sqlserver-cp5-soccer563230-565049', // Ex: meuserver.database.windows.net
+    server: 'sqlserver-cp5-soccer563230-565049.database.windows.net', // Ex: meuserver.database.windows.net
     database: 'cp5-soccer563230-565049',
     options: {
         encrypt: true, // Necessário para Azure SQL
